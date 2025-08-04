@@ -1,0 +1,42 @@
+{
+  "name": "marina",
+  "displayName": "Midnight Marina",
+  "description": "A custom ocean-inspired dark theme",
+  "version": "0.1.1",
+  "author": "Muddyblack",
+  "publisher": "Muddyblack",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Muddyblack/midnight-marina-vscode"
+  },
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "extensionKind": [
+      "ui"
+  ],
+  "keywords": [
+    "marine",
+    "ocean",
+    "blue",
+    "teal"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Midnight Marina",
+        "uiTheme": "vs-dark",
+        "path": "./themes/midnight-marina.json"
+      },
+      {
+        "label": "Midnight Marina Deep",
+        "uiTheme": "vs-dark",
+        "path": "./themes/midnight-marina-deep.json"
+      }
+    ]
+  }
+}
