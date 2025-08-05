@@ -11,7 +11,7 @@
     "url": "https://github.com/Muddyblack/midnight-marina-vscode"
   },
   "engines": {
-    "vscode": "^1.74.0"
+    "vscode": "^1.50.0"
   },
   "extensionKind": [
       "ui"
